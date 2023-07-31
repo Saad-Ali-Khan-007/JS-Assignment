@@ -5,6 +5,28 @@
 // Create a function which takes 3 arguments and return the Largest number among the 3
 // use ternary operator for conditionals
 
+const num1 = 34;
+const num2 = 56;
+const num3 = 76;
+let num;
+
+function largeNum(num1, num2, num3) {
+  num = (num1 > num2 && num1>num3) ?  num1 : num3; ( num2 > num3) ? num2 : num3;
+  console.log(num);
+}
+largeNum();
+
+// //we can also do this way
+// console.log(Math.max(1, 3, 2));
+// // Expected output: 3
+
+// console.log(Math.max(-1, -3, -2));
+// // Expected output: -1
+
+// const arrayOfNumber = [1, 3, 2];
+
+// console.log(Math.max(...array1));
+// Expected output: 3
 // Take 2 numbers as input from the user and an operation which user wants to perform on those numbers then use the switch statement to implement it and alert the result
 
 var array = [
@@ -19,9 +41,9 @@ var array = [
 ];
 
 // extract out 17, 14, 18 using the indexing operator and save them in these variables
-const seventeen;
-const fourteen;
-const eighteen;
+// const seventeen;
+// const fourteen;
+// const eighteen;
 
 // remove the elements one by one from the array2 and add them into array1 in such a way that the resultant array looks like this
 // [1,2,3,4,5,6,7,8,9,10]
