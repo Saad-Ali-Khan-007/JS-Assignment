@@ -74,12 +74,13 @@
 // Given an string like this -> '12:00:00'
 // Extract out the hrs, minutes and seconds from it.
 
-const myTime = new Date('12:00:00');
-
-const minutes = myTime.getMinutes();
-const hours = myTime.getHours();
-console.log(minutes)
-console.log(hours)
+// let time = '12:00:00 PM',
+//     hours = time.split(':')[0],
+//     minutes = time.split(':')[1],
+//     seconds = time.split(':')[2].split(' ')[0];
+//     console.log(hours)
+//     console.log(minutes)
+//     console.log(seconds)
 
 // Take an string as input from user and also take a number as count and repeat the entered string count times and alert it
 // Example:
@@ -87,3 +88,10 @@ console.log(hours)
 // Entered count : 3
 // Result        : 'HelloHelloHello'
 // Note: Use the builtin method to implement it
+
+    // const getString = prompt("String","Type Here")
+    // const getCount = prompt("Number",0)
+
+    // const noOfString = getString.repeat(getCount)
+
+    // console.log(noOfString)
