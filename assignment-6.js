@@ -9,19 +9,24 @@ const animals = ["tiger", "cow", "goat", "camel", "sheep"];
   Q1: Slice array of all the herbivorous animals from the array
   expected result = ["cow", "goat", "camel", "sheep"]
 */
-
+// console.log(animals.slice(1,5))
 /*
   Q2: Make a copy of the original array and then remove the element goat from that copy
 */
-
+// animals.splice(2,1)
+// console.log(animals)
 /*
   Q3: Insert a new array in the array after 'camel' (i.e: at index 4)
  */
-
+// animals.splice(4,0,[])
+// console.log(animals)
 /*
   Q4: Replace the animals 
 */
-
+// animals.splice(0,5,'lion','ferret','cheetah','shark','parrot')
+// console.log(animals)
 /*
   Q5: Cut out second last element from the array using negative indexing
 */
+// animals.slice(-2,1)
+// console.log(animals)
