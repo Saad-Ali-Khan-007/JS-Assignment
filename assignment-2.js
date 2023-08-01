@@ -60,6 +60,35 @@
 //     return vowelCount
 // }
 // console.log(getVowel())
+// function getVowel(){
+//     let vowelCount = 0
+//     let getString= prompt('Enter string',"Type here")
+//     const split_string=getString.split("")
+//     console.log(split_string)
+    
+//     let vowel ;
+//     for(let i = 0;i<split_string.length;i++){
+//         vowel = split_string[i].includes("a") || split_string[i].includes("e") || split_string[i].includes("i") || split_string[i].includes("o") || split_string[i].includes("u")  
+//         console.log(vowel)
+//        }
+//         for (i = 0; i < split_string.length; i++) {
+//             // Check if the current character is a vowel
+//             if (split_string[i] == 'a' || split_string[i] == 'e' || split_string[i] == 'i' || split_string[i] == 'o' || split_string[i] == 'u') {
+//                 console.log(`Vowel found at index ${i}`);
+//             }
+        
+        
+//     }
+//     for(let i=0;i<getString.length;i++){
+//     if(getString.charAt(i) === "a" || getString.charAt(i) === "e" || getString.charAt(i) === "i" || getString.charAt(i) === "o" || getString.charAt(i) === "u") {
+//         vowelCount+=1
+        
+
+// }
+//     }
+//     return vowelCount
+// }
+// console.log(getVowel())
 
 
 
